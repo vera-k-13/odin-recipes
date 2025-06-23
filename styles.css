@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1 {
+    color: darkgreen;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.all {
+    border: 10px solid green;
+    margin: 50px;
+    padding: 10px;
+}
+
+.list {
+    padding: 0 auto;
+    margin: 10px;
+    border: 5px dotted green;
+    background-color: rgb(170, 223, 170);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.home {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 18px;
+}
